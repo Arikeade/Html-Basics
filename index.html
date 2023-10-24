@@ -1,33 +1,92 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initaial-scale=1" >
+    <meta name="description" content="Group 3 project" >
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, REACT" >
+    <meta name="author" content="Tech Gems" >
+    <title>Oluwaseun Profile</title>
 
-<head>
-    <title> Oluwaseun Profile </title>
-</head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-<body style="
-  background-color: peachpuff;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  ">
+      .container {
+        width: 100%;
+        background-color: #ddd;
+      }
 
-  <div>
-    <img
-       style="border-radius: 50%; width: 150px;"
-       src="../html-basics/img/Adegoke oluwaseun_Frontend_Nigeria.jpg"
-    />
+      .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+      }
 
-    <h1> Oluwaseun Adegoke </h1>
+      .html {
+        width: 90%;
+        background-color: #04aa6d;
+      }
+      .css {
+        width: 80%;
+        background-color: #2196f3;
+      }
+      .js {
+        width: 65%;
+        background-color: #f44336;
+      }
+      .php {
+        width: 60%;
+        background-color: #808080;
+      }
+    </style>
+  </head>
 
-    <p> Frontend Developer </p>
-    <a href="https://twitter.com/arikeade_1">
-        FOLLOW ME ON TWITTER
-    </a>
-  </div>
+  <body
+    style="
+      background-color: peachpuff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    "
+  >
+    <div>
+      <img
+        style="border-radius: 50%; width: 150px"
+        src="./img/Adegoke oluwaseun_Frontend_Nigeria.jpg"
+      />
 
-</body>
+      <h1>Oluwaseun Adegoke</h1>
+
+      <p>Frontend Developer</p>
+      <a href="https://twitter.com/arikeade_1"> FOLLOW ME ON TWITTER </a>
+    </div>
+
+    <h1>My Skills</h1>
+
+    <p>HTML</p>
+    <div class="container">
+      <div class="skills html">90%</div>
+    </div>
+
+    <p>CSS</p>
+    <div class="container">
+      <div class="skills css">80%</div>
+    </div>
+
+    <p>JavaScript</p>
+    <div class="container">
+      <div class="skills js">65%</div>
+    </div>
+
+    <p>PHP</p>
+    <div class="container">
+      <div class="skills php">60%</div>
+    </div>
+  </body>
 </html>
