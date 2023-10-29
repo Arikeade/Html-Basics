@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+htm {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("img/pp1.jpg");
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+}
+
+.section {
+  margin: 5px 30%;
+  position: relative;
+}
+
+.section2 {
+  margin: 2px 25%;
+  padding-top: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.paragraph {
+  padding: 0px 50px;
+}
+
+.heading{
+  margin-bottom: 2px;
+}
+
+.italics {
+  color: rgba(27, 27, 28, 0.3);
+}
